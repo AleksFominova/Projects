@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <style>
+      
+      html,
+      body,
+      .wrapper {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+      }
+
+      .wrapper {
+        display: flex;
+      }
+      .form-container {
+        flex: 1;
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        
+        
+      }
+      .banner {
+        flex: 1;
+      }
+      .form {
+        text-align: center;
+        background: #ad655c;
+        padding: 40px 20px;
+        border-radius: 16px;
+        box-shadow: rgba(0, 0, 0, 0.15) 10px 20px 20px, rgba(0, 0, 0, 0.05) 15px 5px 15px;}      
+        .row {
+        margin-bottom: 20px;
+      }
+      .input {
+        border: none;
+        font-size: 16px;
+        padding: 15px;
+        border-radius: 8px;
+      }
+      .input:focus {
+        outline: none;
+      }
+      .button {
+        font-size: 16px;
+        background: #6e3b36;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        
+      }
+      figure {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        line-height: 0;
+        
+      }
+      .picture {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+      
+      .icon{
+        font-size: 40px;
+      }
+      a:hover{
+        text-decoration: none;
+        
+        }
+        a{
+          color: #361612;
+          
+        }
+        
+       
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form-container">
+        
+
+
+        <div class="form">
+          <div class="row">
+            <div class="icon"><i class="lar la-user"></i></div>
+            <div class="row">
+              <h1>Welcome!</h1>
+            </div>
+            <div class="row">
+              <input type="text" class="input" placeholder="e-mail" />
+            </div>
+            <div class="row">
+              <input type="text" class="input" placeholder="password" />
+            </div>
+            <div class="row">
+              <input type="checkbox">
+              <label for="">Remember me </label>
+            </div>
+            <div class="row">
+              <button class="button">Log in</button>
+            </div>
+            <a href="">Forgot password?</a>
+           <div class="row">
+
+           <a href="">Help</a> </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="banner">
+        <figure>
+          <img
+            class="picture"
+            src="https://images.unsplash.com/photo-1556740772-1a741367b93e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+            alt=""
+          />
+        </figure>
+      </div>
+    </div>
+  </body>
+</html>
