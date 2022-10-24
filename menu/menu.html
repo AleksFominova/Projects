@@ -19,6 +19,7 @@
       left: 0;
       transform: translateX(calc(var(--sidebar-width) * -1));
       transition: all .5s ease-out;
+      z-index: 1;
     }
     .sidebar--open {
       transform: translateX(0);
@@ -30,7 +31,7 @@
     }
     .button {
       font-size: 1.5rem;
-      background: blue;
+      background: rgb(59, 165, 223);
       color: white;
       padding: 1rem;
       border-radius: 8px;
@@ -42,15 +43,17 @@
       background: green;
       
     }
-    .footer{
+    .menubottom{
         display: none;
         align-items: center;
+        padding: 2rem 1rem;
+        width: 100%;
     }
     @media(max-width: 768px){
         .button{
             display: inline;
         }
-        .footer{
+        .menubottom{
             justify-content: space-between;
             display: flex;
             border: 2px solid black;
@@ -58,9 +61,10 @@
             position: fixed;
             bottom: 0;
             left: 0;
-            margin-left: 25px;
-            background: rgb(159, 155, 155);
+            background: rgb(193, 189, 189);
             gap: 10px;
+            box-sizing: border-box;
+            border-radius: 8px;
             
            
             
@@ -71,7 +75,9 @@
             display: flex; 
             font-size:  20px;
             text-decoration: none;
-            color: blue
+            color: blue;
+            font-size: 20px;
+            
             }
             a:hover{
                 text-decoration: solid;
@@ -643,7 +649,7 @@
         sidebar.classList.toggle("sidebar--open");
       }
     </script>
-<div class="footer">
+<div class="menubottom">
     <a href="Home">Home</a>
       <a href="Services">Services</a> 
       <a href="Catalog">Catalog</a> 
