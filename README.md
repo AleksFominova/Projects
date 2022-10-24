@@ -1,7 +1,7 @@
 # Telran FE Projects
 - [Homework] 
-(https://aleksfominova.github.io/FE/blocksgrid.html)
-(https://aleksfominova.github.io/FE/login.html)
-(https://aleksfominova.github.io/FE/menu.html)
-(https://aleksfominova.github.io/FE/superfinty.html)
-(https://aleksfominova.github.io/FE/youami.html)
+(https://aleksfominova.github.io/FE/colorgrid/blocksgrid.html)
+(https://aleksfominova.github.io/FE/login/login.html)
+(https://aleksfominova.github.io/FE/menu/menu.html)
+(https://aleksfominova.github.io/FE/superfinty/superfinty.html)
+(https://aleksfominova.github.io/FE/youame/youami.html)
