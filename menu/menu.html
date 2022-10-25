@@ -56,12 +56,12 @@
         .menubottom{
             justify-content: space-between;
             display: flex;
-            border: 2px solid black;
+            border: 2px solid white;
             transition: all 0.5s ease-out;
             position: fixed;
             bottom: 0;
             left: 0;
-            background: rgb(193, 189, 189);
+            background: rgb(59, 165, 223);
             box-sizing: border-box;
             border-radius: 8px;
             
@@ -72,14 +72,15 @@
             a{
             justify-content: space-between;
             display: flex; 
-            font-size:  20px;
+            font-size:  25px;
             text-decoration: none;
-            color: blue;
+            color: white;
             
             
             }
             a:hover{
                 text-decoration: solid;
+                color: black;
                 
             }
         
@@ -642,7 +643,7 @@
       accusamus quisquam cupiditate modi iusto!
     </p>
     <script>
-      // переключает класс sidebar--open
+    
       function toggleMenu() {
         let sidebar = document.querySelector(".sidebar");
         sidebar.classList.toggle("sidebar--open");
